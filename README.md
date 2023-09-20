@@ -72,16 +72,20 @@ Root Filesystem. It is a fantastic book that I STRONGLY recommend. But, bear in 
      1. Settings -> Cross compiler prefix 	aarch64-rpi4-linux-gnu-
      1. Settings -> Destination path for ‘make install’ /home/a_destructor/rootfs
 
+    ![](README_Photos/1.png)
+    ![](README_Photos/2.png)
+    ![](README_Photos/3.png)
+    ![](README_Photos/4.png)
     
 
-6. Build it!
+7. Build it!
 
    ```
    make -j8
    ```
 
 
-7. Install it!
+8. Install it!
 
    ```
    make install
