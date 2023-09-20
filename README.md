@@ -116,6 +116,11 @@ The result will be these three folders located in `rootfs`: `usr`, `bin`, and `s
    mdev -s  # -s	Scan /sys and populate /dev\n"
    ```
 
+Your `rootfs` tree should look like this:
+
+  ![](README_Photos/5.png)
+
+
 
 ## Install the Root Filesystem
 
