@@ -72,16 +72,19 @@ Root Filesystem. It is a fantastic book that I STRONGLY recommend. But, bear in 
      1. Settings -> Cross compiler prefix 	aarch64-rpi4-linux-gnu-
      1. Settings -> Destination path for ‘make install’ /home/a_destructor/rootfs
 
+    ![](README_Photos/2.png)
+    ![](README_Photos/3.png)
+    ![](README_Photos/4.png)
     
 
-6. Build it!
+7. Build it!
 
    ```
    make -j8
    ```
 
 
-7. Install it!
+8. Install it!
 
    ```
    make install
@@ -112,6 +115,11 @@ The result will be these three folders located in `rootfs`: `usr`, `bin`, and `s
    echo /sbin/mdev > /proc/sys/kernel/hotplug
    mdev -s  # -s	Scan /sys and populate /dev\n"
    ```
+
+Your `rootfs` tree should look like this:
+
+  ![](README_Photos/5.png)
+
 
 
 ## Install the Root Filesystem
